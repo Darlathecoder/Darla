@@ -1,0 +1,238 @@
+/* Reset some basic styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container class for consistent spacing */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2em 0;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#hero .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* About section styles */
+#about {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Features section styles */
+#features {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+}
+
+#features h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: white;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.feature p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Testimonials section styles */
+#testimonials {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial {
+    background-color: #f4f4f4;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form label {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+#contact form input, #contact form textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+#contact form .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/* Order page styles */
+#order {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#order h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#order form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order form label {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+#order form input {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+#order form .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
